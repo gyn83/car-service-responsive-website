@@ -179,6 +179,16 @@ header nav ul li a:active {
   }
 }
 
+@media (max-width: 500px) {
+  .logo img {
+    height: 50px;
+    margin-top: 25px;
+  }
+  header {
+    padding: 0 15px;
+  }
+}
+
 /* CAROUSEL STYLES */
 
 .wrap {
@@ -342,9 +352,25 @@ header nav ul li a:active {
     grid-template-columns: auto auto auto;
     grid-gap: 2rem;
     margin: 0 auto;
-
     width: 80%;
   }
+}
+@media (max-width: 500px) {
+  .box img {
+    height: 200px;
+    position: relative;
+    top: -50px;
+    z-index: 5;
+  }
+  .box-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .text-wrapper {
+   padding: 100px 30px 30px 30px;
+  }
+  
 }
 
 /* SERVICE STYLES */
@@ -410,6 +436,30 @@ header nav ul li a:active {
     margin-top: 0;
   }
 }
+@media (max-width:500px) {
+  .service-box-wrapper {
+    display: grid;
+    grid-template-columns: auto auto ;
+    width: 95%;
+    grid-gap: 10px;
+  }
+  .service-box {
+    width: 150px;
+    height: 150px;
+    color: #f9ca24;
+    text-align: center;
+    background: hsla(48, 88%, 3%, 0.7);
+    padding-top: 1rem;
+  }
+  .service-box span {
+    padding: 1rem;
+    
+  }
+  .service-box img {
+    height: 70px;
+   
+  }
+}
 
 /* MONEY STYLES */
 
@@ -456,6 +506,8 @@ header nav ul li a:active {
     margin: 0 100px;
   }
 }
+
+
 
 /* CONTACT STYLES */
 
