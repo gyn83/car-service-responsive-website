@@ -508,10 +508,15 @@ header nav ul li a:active {
 }
 
 @media (max-width: 500px) {
-
+.money {
+  
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
   .money-wrapper-bg {
    padding-top: 100px;
-   padding-bottom: 200px;
+   padding-bottom: 100px;
   }
 }
 
