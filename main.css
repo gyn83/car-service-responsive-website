@@ -502,6 +502,21 @@ header nav ul li a:active {
   .money-text-wrapper p {
     margin: 0 100px;
   }
+
+  @media (min-width: 500px) {
+    
+.money-wrapper-bg {
+  display: block;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.money-text-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  color: #f9ca24;
+}
+  }
 }
 
 /* CONTACT STYLES */
