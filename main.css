@@ -78,6 +78,51 @@ body {
   text-transform: uppercase;
 }
 
+.valami-top {
+  background: url(image/1.png);
+  background-size: cover;
+  height: 25px;
+  z-index: 10;
+  display: block;
+  position: relative;
+  margin-top: -25px;
+}
+
+.valami-bottom {
+  background: url(image/2.png);
+  background-size: cover;
+  height: 25px;
+  z-index: 10;
+  margin-bottom: -25px;
+  display: block;
+  position: relative;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 600px) {
+  .valami-top {
+    background: url(image/1.png);
+    background-size: cover;
+    height: 15px;
+    z-index: 10;
+    display: block;
+    position: relative;
+    margin-top: -15px;
+  }
+
+  .valami-bottom {
+    background: url(image/2.png);
+    background-size: cover;
+    background-position-x: center;
+    height: 15px;
+    z-index: 10;
+    margin-bottom: -15px;
+    display: block;
+    position: relative;
+  }
+}
+
 @media (min-width: 990px) {
   .hero h1 {
     font-weight: bold;
